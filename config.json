@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Мусова В.Э-Г."
+  },
+  "text": {
+    "more": "",
+    "intro": "Сообщества получились корректными и соответствующими действительности. Фиолетовым цветом обозначены одноклассники из лицея, голубым-остальные друзья из Калмыкии, зелёным-друзья из мего первого  вуза,\nтёмно-зелёным-одноклассник из старой школы, 5-ой по счёту. Групп и цветов получилсь слишком много чтобы описать все, но я надеюсь, что этого будет достаточно.",
+    "title": "HW_6"
+  },
+  "legend": {
+    "edgeLabel": "знакомство",
+    "colorLabel": "сообщество",
+    "nodeLabel": "человек"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
